@@ -1,4 +1,45 @@
-h1,
-h2 {
-    font-family: "Bangers";
+/* Quick and Dirty Reset */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+/* Variables */
+:root {
+    --spacing: 0.75em;
+}
+
+/* General Styles */
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-family: "Bangers", sans-serif;
+}
+
+nav {
+    padding: var(--spacing);
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    padding-block: var(--spacing);
+}
+
+header {
+    padding: var(--spacing);
+}
+
+footer {
+    padding: var(--spacing);
 }
